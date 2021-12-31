@@ -36,7 +36,7 @@ h1{
 .snowflakes2{
     position: absolute;
     z-index: -1;
-    top: 600px;
+    top: 500px;
     right: 0;
 }
 
@@ -47,7 +47,7 @@ h1{
 .snowflakes3{
     position: absolute;
     z-index: -1;
-    top: 1200px;
+    top: 1000px;
     left: 0;
 }
 
@@ -58,7 +58,7 @@ h1{
 .snowflakes4{
     position: absolute;
     z-index: -1;
-    top: 1600px;
+    top: 1500px;
     right: 0;
 }
 
@@ -73,13 +73,14 @@ h1{
     padding-top: 10px;
     margin: 0 auto;
     justify-content: center;
+    height: 60px;
 }
 
-.custom-nav-container img{
+/* .custom-nav-container img{
     width: 50px;
     height: 50px;
     border: 3px solid black;
-}
+} */
 
 .custom-fixed{
     position: fixed;
@@ -158,6 +159,10 @@ h1{
     height: 225px;
     padding: 6px;
     border-radius: 15px;
+}
+
+.articulos{
+    padding-left: 20px;
 }
 
 
@@ -249,37 +254,53 @@ h1{
     z-index: 9;
 }
 
-/* .modal{
-    position: relative;
-    z-index: 2;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -100%);
-    transition: top 300ms ease;
-    background-color: white;
-    max-width: 600px;
-    margin: 0 auto;
-    border: 1px solid rgba(0, 0, 0, .1);
-}
-
-.modal.active{
-    top:50%;
-    transform: translate(-50%, -50%);
-} */
-
-
 /* -----------------------@media------------------------------ */
 
 
-@media(max-width:992px){
+@media(max-width:993px){
     body{
         max-width: 992px;
     }
-    .imagen{
-        height: 150px;
+
+/* -----------------------Background-copos------------------------------ */
+    .snowflakes1 img{
+        width: 250px;
     }
+    .snowflakes2{
+        position: absolute;
+        z-index: -1;
+        top: 350px;
+        right: 0;
+    }   
+    .snowflakes2 img{
+        width: 250px;
+    }
+    .snowflakes3{
+        position: absolute;
+        z-index: -1;
+        top: 700px;
+        left: 0;
+    }
+    .snowflakes3 img{
+        width: 250px;
+    }
+    .snowflakes4{
+        position: absolute;
+        z-index: -1;
+        top: 1050px;
+        right: 0;
+    }
+    .snowflakes4 img{
+        width: 250px;
+    }
+
+/* ----------------------- Carousel ------------------------------ */
     .custom-carousel {
         max-width: 90%;
+    }
+
+    .imagen{
+        height: 125px;
     }
     .custom-fixed{
         position: fixed;
@@ -292,39 +313,9 @@ h1{
     .productos{
         max-width: 100%;
     }
-    .custom-filtros label{
+    .custom-filtros a{
         display: inline;
         margin: 5px;
-    }
-    .snowflakes1 img{
-        width: 250px;
-    }
-    .snowflakes2{
-        position: absolute;
-        z-index: -1;
-        top: 500px;
-        right: 0;
-    }   
-    .snowflakes2 img{
-        width: 250px;
-    }
-    .snowflakes3{
-        position: absolute;
-        z-index: -1;
-        top: 1000px;
-        left: 0;
-    }
-    .snowflakes3 img{
-        width: 250px;
-    }
-    .snowflakes4{
-        position: absolute;
-        z-index: -1;
-        top: 1500px;
-        right: 0;
-    }
-    .snowflakes4 img{
-        width: 250px;
     }
 }
 
@@ -333,20 +324,15 @@ h1{
     body{
         max-width: 768px;
     }
-    .imagen{
-        height: 150px;
-    }
-    .custom-filtros label{
-        display: inline;
-        margin: 5px;
-    }
+
+/* -----------------------Background-copos------------------------------ */
     .snowflakes1 img{
         width: 150px;
     }
     .snowflakes2{
         position: absolute;
         z-index: -1;
-        top: 300px;
+        top: 25%;
         right: 0;
     }   
     .snowflakes2 img{
@@ -355,7 +341,7 @@ h1{
     .snowflakes3{
         position: absolute;
         z-index: -1;
-        top: 600px;
+        top: 50%;
         left: 0;
     }
     .snowflakes3 img{
@@ -364,10 +350,29 @@ h1{
     .snowflakes4{
         position: absolute;
         z-index: -1;
-        top: 900px;
+        top: 75%;
         right: 0;
     }
     .snowflakes4 img{
         width: 150px;
+    }
+
+/* ----------------------- Carousel ------------------------------ */
+    .custom-carousel {
+        max-width: 75%;
+    }
+
+/* ----------------------- Products ------------------------------ */
+
+    .container{
+        max-width: 100%;
+    }
+
+    .imagen{
+        height: 150px;
+    }
+    .custom-filtros a{
+        display: inline;
+        margin: 5px;
     }
 }
