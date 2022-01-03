@@ -3,7 +3,7 @@ const path = require("path")
 const productos = require("./utils/productos")
 
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 
 const viewsURL = path.join(__dirname, "views")
 app.set("views", viewsURL)
