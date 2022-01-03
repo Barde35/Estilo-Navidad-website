@@ -324,6 +324,18 @@ h1{
     body{
         max-width: 768px;
     }
+    h1{
+        font-size: 36px;
+    }
+
+    .custom-nav-font{
+        font-size: 10px;
+    }
+    .custom-p-font{
+        font-size: 15px;
+    }
+    
+    
 
 /* -----------------------Background-copos------------------------------ */
     .snowflakes1 img{
