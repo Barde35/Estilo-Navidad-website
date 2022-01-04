@@ -371,7 +371,7 @@ h1{
     .snowflakes2{
         position: absolute;
         z-index: -1;
-        top: 25%;
+        top: 350px;
         right: 0;
     }   
     .snowflakes2 img{
@@ -380,7 +380,7 @@ h1{
     .snowflakes3{
         position: absolute;
         z-index: -1;
-        top: 50%;
+        top: 750px;
         left: 0;
     }
     .snowflakes3 img{
@@ -389,7 +389,7 @@ h1{
     .snowflakes4{
         position: absolute;
         z-index: -1;
-        top: 75%;
+        top: 1000px;
         right: 0;
     }
     .snowflakes4 img{
