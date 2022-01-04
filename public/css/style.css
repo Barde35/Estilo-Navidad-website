@@ -100,7 +100,7 @@ h1{
 .custom-inicio a{
     text-decoration: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 50px;
     color: #d1b372;
 }
 
@@ -110,7 +110,7 @@ h1{
 }
 
 .custom-nav-font{
-    font-size: 25px;
+    font-size: 32px;
 }
 
 /* -----------------------Header------------------------------ */
@@ -257,7 +257,7 @@ h1{
 /* -----------------------@media------------------------------ */
 
 
-@media(max-width:993px){
+@media(max-width:992px){
     body{
         max-width: 992px;
     }
@@ -329,13 +329,26 @@ h1{
     }
 
     .custom-nav-font{
-        font-size: 10px;
+        font-size: 30px;
     }
     .custom-p-font{
         font-size: 15px;
     }
-    
-    
+
+    .custom-p{
+        margin: 0 auto;
+        padding: 13px 75px;
+    }
+
+    .custom-filtros{
+        padding: 5px 58px;
+    }
+
+    .custom-filtros a{
+        padding: 5px 58px;
+        background-color: #adadad54;
+        border-radius: 25px;
+    }
 
 /* -----------------------Background-copos------------------------------ */
     .snowflakes1 img{
@@ -372,6 +385,7 @@ h1{
 /* ----------------------- Carousel ------------------------------ */
     .custom-carousel {
         max-width: 75%;
+        margin: 0 auto;
     }
 
 /* ----------------------- Products ------------------------------ */
