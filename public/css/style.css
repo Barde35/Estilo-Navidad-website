@@ -151,7 +151,10 @@ h1{
     padding: 2px 0;
     margin: 2px 0;
     text-decoration: none;
-    color: black;
+    color: black;        
+    background-color: #adadad54;
+    border-radius: 25px;
+    text-align: center;
 }
 
 .imagen{
