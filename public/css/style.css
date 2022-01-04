@@ -328,8 +328,20 @@ h1{
         font-size: 36px;
     }
 
+    h3{
+        font-size: 15px;
+    }
+
+    .custom-inicio{
+        padding: 0;
+    }
+
+    .custom-inicio a{
+        margin: 0 10px;
+    }
+
     .custom-nav-font{
-        font-size: 30px;
+        font-size: 15px;
     }
     .custom-p-font{
         font-size: 15px;
@@ -341,13 +353,15 @@ h1{
     }
 
     .custom-filtros{
-        padding: 5px 58px;
+        padding: 5px 31px;
     }
 
     .custom-filtros a{
-        padding: 5px 58px;
+        margin: 0;
+        padding: 5px 5px;
         background-color: #adadad54;
         border-radius: 25px;
+        font-size: 10px;
     }
 
 /* -----------------------Background-copos------------------------------ */
@@ -395,10 +409,43 @@ h1{
     }
 
     .imagen{
-        height: 150px;
+        height: 75px;
+        display: inline-block;
+        padding: 2px;
+        border-radius: 15px;
     }
+
+    .custom-filtros{
+        padding: 5px 31px;
+    }
+
     .custom-filtros a{
-        display: inline;
-        margin: 5px;
+        margin: 0;
+        padding: 5px 5px;
+        background-color: #adadad54;
+        border-radius: 25px;
+        font-size: 10px;
+    }
+
+    .custom-img{
+        max-width: 175px;
+        max-height: 125px;
+    }
+
+    .custom-x {
+        width: 15px;
+        top: -9%;
+        right: -3%;
+    }
+
+    .text-center{
+        font-size: 30px;
+    }
+
+    .custom-p {
+        text-align: center;
+        font-size: 15px;
+        margin: 0 auto;
+        padding: 10px 20px;
     }
 }

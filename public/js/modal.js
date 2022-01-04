@@ -15,12 +15,12 @@ allImg.forEach((el) => {
         img.classList.add("custom-img")
         
         
-        const material = document.querySelector("#material")
+        const descripciones = document.querySelector("#description")
         const medida = document.querySelector("#medida")
         const precio = document.querySelector("#precio")
 
         
-        material.textContent = idFiltrado[0].materiales;
+        descripciones.textContent = idFiltrado[0].description;
         medida.textContent = idFiltrado[0].medidas;
         precio.textContent = idFiltrado[0].precios;
         img.setAttribute("src", idFiltrado[0].imagen)
