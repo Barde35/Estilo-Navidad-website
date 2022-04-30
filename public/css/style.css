@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family:'Linden Hill', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 html{
@@ -10,13 +10,21 @@ html{
 body{
     margin: 0 auto;
     max-width: 1215px;
-    font-family: 'Linden Hill', serif;
     padding-top: 90px;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 h1{
     font-family: 'Princess Sofia', cursive;
     font-size: 48px;
+}
+
+li{
+    height: 100%;
 }
 
 /* -----------------------Background-copos------------------------------ */
@@ -30,8 +38,6 @@ h1{
 .snowflakes1 img{
     width: 350px;
 }
-
-
 
 .snowflakes2{
     position: absolute;
@@ -68,12 +74,26 @@ h1{
 
 /* -----------------------Navbar------------------------------ */
 
+.nav-button:hover{
+    border-right: solid 1px #d1b372;
+    border-left: solid 1px #d1b372;
+    margin:0;
+}
+
+.nav-button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px 40px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
 .custom-nav-container{
     display: flex;
-    padding-top: 10px;
     margin: 0 auto;
     justify-content: center;
-    height: 60px;
+    height: 70px;
 }
 
 /* .custom-nav-container img{
@@ -93,24 +113,21 @@ h1{
 
 .custom-inicio{
     list-style: none;
+    align-items: center;
     display: flex;
+    height: 100%;
     margin: 0;
 }
 
 .custom-inicio a{
     text-decoration: none;
     display: inline-block;
-    margin: 0 50px;
-    color: #d1b372;
+    color: #ffce64;
 }
 
 .custom-inicio h1{
     color: #ffce64;
     padding: 0 20px;
-}
-
-.custom-nav-font{
-    font-size: 32px;
 }
 
 /* -----------------------Header------------------------------ */
@@ -142,7 +159,7 @@ h1{
 }
 
 .custom-filtros{
-    min-width: 200px;
+    min-width: 220px;
     font-size: 20px;
 }
 
@@ -155,6 +172,10 @@ h1{
     background-color: #adadad54;
     border-radius: 25px;
     text-align: center;
+}
+
+.custom-filtros a:hover{
+    background-color: #9c9c9c;
 }
 
 .imagen{
@@ -265,6 +286,22 @@ h1{
         max-width: 992px;
     }
 
+/* ----------------------navbar------------------------------- */    
+
+    nav {
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .nav-button{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 5px 40px;
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
 /* -----------------------Background-copos------------------------------ */
     .snowflakes1 img{
         width: 250px;
@@ -334,6 +371,23 @@ h1{
     h3{
         font-size: 15px;
     }
+
+    /* ----------------------navbar------------------------------- */    
+
+    nav {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .nav-button{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 5px 30px;
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
 
     .custom-inicio{
         padding: 0;
